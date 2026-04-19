@@ -36,7 +36,7 @@ export default function PredictorPage() {
   try {
     setIsLoading(true);
 
-    const response = await fetch("http://localhost:8000/predict-freight", {
+    const response = await fetch("https://invoice-nalw.onrender.com/predict-freight", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
