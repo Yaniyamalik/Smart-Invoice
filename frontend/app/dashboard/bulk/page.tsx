@@ -145,7 +145,7 @@ export default function BulkAnalysisPage() {
     const formData = new FormData();
     formData.append("file", file);
 
-    const response = await fetch("http://localhost:8000/bulk-analyze", {
+    const response = await fetch("https://invoice-nalw.onrender.com/bulk-analyze", {
       method: "POST",
       body: formData,
     });
