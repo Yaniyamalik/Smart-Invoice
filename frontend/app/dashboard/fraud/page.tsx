@@ -30,7 +30,7 @@ const handleAnalyze = async () => {
       total_item_dollars: Number(formData.totalItemDollars || 0),
     };
 
-    const response = await fetch("http://localhost:8000/predict-flag", {
+    const response = await fetch("https://invoice-nalw.onrender.com/predict-flag", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
