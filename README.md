@@ -130,6 +130,52 @@ uvicorn main:app --reload
 
 ---
 
+## Resume Highlights
 
+* Built a full-stack AI-powered invoice analytics platform.
+* Integrated ML models for fraud detection and freight prediction.
+* Developed REST APIs with FastAPI.
+* Designed responsive UI with Next.js and Tailwind CSS.
+* Deployed production-ready app using Vercel and Render.
 
-#
+---
+
+## Machine Learning Details
+
+### Freight Prediction Model
+
+* Compared Linear Regression, Decision Tree Regressor, and Random Forest Regressor.
+* **Best Model:** Linear Regression
+* **Metrics:** R² 96.99%, MAE 24.11, RMSE 124.72
+* Chosen for high accuracy and interpretability.
+
+### Invoice Risk Detection Model
+
+* Built a rule-based labeling pipeline and trained classifiers.
+* Compared Logistic Regression, Decision Tree Classifier, and Random Forest Classifier.
+* **Best Model:** Random Forest Classifier
+* **Accuracy:** 89%
+* Chosen for robustness and ability to learn non-linear patterns.
+
+### Data Pipeline
+
+* Sources: `vendor_invoice`, `purchases`, `purchase_prices`, `begin_inventory`, `end_inventory`
+* Feature engineering included invoice values, quantities, freight variance, delays, and aggregated purchase metrics.
+* Models serialized with Joblib and served through FastAPI APIs.
+
+---
+
+## Future Improvements
+
+* User Authentication
+* Database Integration
+* Downloadable Reports (PDF/Excel)
+* Role-based Access Control
+* Real-time Notifications
+* Advanced Model Monitoring
+
+---
+
+## Author
+
+**Yaniya **
