@@ -10,7 +10,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         
-        "https://invoice-iota-blush.vercel.app"
+        "https://smart-invoice-one.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
