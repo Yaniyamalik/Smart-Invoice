@@ -36,7 +36,7 @@ Responsive dashboard with charts, analytics cards, and clean navigation.
 * Next.js
 * TypeScript
 * Tailwind CSS
-* shadcn/ui
+* Daisy UI
 * Recharts
 
 ### Backend
