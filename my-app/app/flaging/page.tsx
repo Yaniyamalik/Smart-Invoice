@@ -22,7 +22,7 @@ const handleAnalyze = async () => {
 
   try {
     const res = await fetch(
-      "http://127.0.0.1:8000/predict-flag",
+      "https://smart-invoice-pfkt.onrender.com/predict-flag",
       {
         method: "POST",
         headers: {
