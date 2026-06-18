@@ -17,7 +17,7 @@ export default function Page() {
 
     try {
       const res = await fetch(
-          "http://127.0.0.1:8000/predict-freight",
+          "https://smart-invoice-pfkt.onrender.com/predict-freight",
           {
             method: "POST",
             headers: {
