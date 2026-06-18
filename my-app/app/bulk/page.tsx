@@ -30,7 +30,7 @@ const handleAnalyze = async () => {
 
   try {
     const res = await fetch(
-      "http://127.0.0.1:8000/batch-process",
+      "https://smart-invoice-pfkt.onrender.com/batch-process",
       {
         method: "POST",
         body: formData,
